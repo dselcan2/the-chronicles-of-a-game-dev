@@ -16,4 +16,7 @@ npx factor serve
 
 # build for production and then launch server
 npx factor start
+
+# to install dependencie run the following command in the repo folder
+npm  install
 ```
