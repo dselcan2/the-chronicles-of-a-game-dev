@@ -111,6 +111,39 @@ export default {
     content: ""
   },
   contact: {
-    resources: []
+    title: "Have any quiestions?",
+    content: "Feel free to send me a question or any other coments related to my work! I'll do my best to get back to you in 24h.",
+    heroImage: require("./static/workspace.svg"),
+    resources: [],
+    location: {
+      title: "I live in Slovenia",
+      content: "I originally want going to include this information here, but since i couldnt find a nice way to remove this map here you go. And yes it does look like a chicken.",
+      map: '<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Slovenia&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>'
+    }
+  },
+  contactForm: {
+    layout: [
+      {
+        label: "Name",
+        _id: "name",
+        inputType: "text",
+        placeholder: "Full Name",
+        required: true
+      },
+      {
+        label: "Email",
+        _id: "email",
+        inputType: "email",
+        placeholder: "name@example.com",
+        required: true
+      },
+      {
+        label: "Message",
+        _id: "message",
+        inputType: "textarea",
+        placeholder: "What do you want to say?",
+        required: true
+      }
+    ]
   }
 }
