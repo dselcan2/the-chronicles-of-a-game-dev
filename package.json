@@ -16,6 +16,9 @@
       "description": "Blog about Games and Game Making",
       "email": "dselcan@gmail.con",
       "url": ""
+    },
+    "roles": {
+      "dselcan@gmail.com": "admin"
     }
   },
   "dependencies": {

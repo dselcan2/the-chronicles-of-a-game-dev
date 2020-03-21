@@ -7,6 +7,7 @@
  */
 export default {
   site: {
+    logo: (): Promise<Component> => import("./logo.vue"),
     nav: [
       {
         _item: "intro",
@@ -96,12 +97,6 @@ export default {
         }
       ],
       limit: 4, // Post limit
-      items: [
-        {
-          _item: "test",
-          icon: require("./static/web-code.svg"),
-        }
-      ]
     },
     section4: []
   },
@@ -116,7 +111,6 @@ export default {
     content: ""
   },
   contact: {
-    resources: [],
-    //location: []
+    resources: []
   }
 }
