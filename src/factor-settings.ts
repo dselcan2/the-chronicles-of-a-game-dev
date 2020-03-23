@@ -30,6 +30,23 @@ export default {
         name: "Contact"
       }
     ],
+    social: [
+      {
+        _item: "instagram",
+        path: "https://www.instagram.com/d_selcan_/",
+        icon: "fab fa-instagram"
+      },
+      {
+        _item: "twitter",
+        path: "https://twitter.com/Dselcan2",
+        icon: "fab fa-twitter"
+      },
+      {
+        _item: "linkedin",
+        path: "https://www.linkedin.com/in/denis-sel%C4%8Dan-05a4971a5/",
+        icon: "fab fa-linkedin"
+      }
+    ],
     cta: {
       headline: "Have any questions for me?",
       path: "/contact",
