@@ -6,6 +6,23 @@
  *
  */
 export default {
+  emailList: {
+    default: {
+      form: {
+        buttonText: "Sign up!"
+      },
+      success: {
+        text: "Please check your email to confirm your email address.",
+        link: (email: string): { path?: string; close?: boolean; text?: string } => {
+          return {
+            path: `/`,
+            text: "Back to Home",
+            close: false
+          }
+        }
+      }
+    }
+  },
   site: {
     logo: (): Promise<Component> => import("./logo.vue"),
     nav: [
