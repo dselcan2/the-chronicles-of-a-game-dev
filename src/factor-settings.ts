@@ -65,9 +65,9 @@ export default {
       }
     ],
     cta: {
-      headline: "Have any questions for me?",
-      path: "/contact",
-      text: "Get in Touch"
+      headline: "Want to recieve email updates?",
+      path: "/email",
+      text: "sign up!"
     }
   },
   home: {
