@@ -9,3 +9,13 @@ addContentRoute({
   path: "/email",
   component: () => import("./email.vue")
 });
+
+addContentRoute({
+  path: "/terms-of-service",
+  component: () => import("./terms-of-service.vue")
+});
+
+addContentRoute({
+  path: "/privacy-policy",
+  component: () => import("./privacy-policy.vue")
+});

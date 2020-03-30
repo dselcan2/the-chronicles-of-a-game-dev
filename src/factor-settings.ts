@@ -70,6 +70,21 @@ export default {
       text: "sign up!"
     }
   },
+  footer: {
+    legal: `&copy; 2020 <a href="https://www.fiction.com/" target="_blank">Denis Selčan</a>`,
+    nav: [
+      {
+        _item: "terms",
+        path: "/terms-of-service",
+        text: "Terms of Service"
+      },
+      {
+        _item: "privacy",
+        path: "/privacy-policy",
+        text: "Privacy Policy"
+      }
+    ]
+  },
   home: {
     intro: {
       pretitle: "Dselcan's",
@@ -145,7 +160,7 @@ export default {
     content: ""
   },
   contact: {
-    title: "Have any quiestions?",
+    title: "Have any questions?",
     content: "Feel free to send me a question or any other coments related to my work! I'll do my best to get back to you in 24h.",
     heroImage: require("./static/workspace.svg"),
     resources: [],
