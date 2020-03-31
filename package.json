@@ -4,6 +4,9 @@
   "description": "Blog about Games and Game Making",
   "main": "src/index",
   "private": true,
+  "scripts": {
+    "heroku-postbuild": "npx factor build"
+  },
   "factor": {
     "load": [
       "app",
