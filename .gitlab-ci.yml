@@ -12,6 +12,7 @@ production:
     - apt-get install -y ruby-dev
     - gem install dpl
     - printf "DB_CONNECTION=\"$DB_CONNECTION\"\nTOKEN_SECRET=\"$TOKEN_SECRET\"" > .env
+    - cat .env
     - dpl --provider=heroku --app=$HEROKU_APP_PRODUCTION --api-key=$HEROKU_API_KEY
   only:
     - master
