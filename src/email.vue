@@ -2,7 +2,7 @@
   <div class="join-program content">
     <div class="content-pad">
       <div class="head">
-        <img width="400" svg-inline src='./static/logo_blue.svg' alt="example" />
+        <img width="400" svg-inline src='./static/Logo_blue.svg' alt="example" />
         <br/>
         <br/>
         <h2 class="title">Want to know when I post something new?</h2>
