@@ -23,6 +23,10 @@ export default {
       }
     }
   },
+  metatags: {
+    defaultTitle: "Chronicles of a Game dev",
+    titleTemplate: "%s"
+  },
   site: {
     logo: (): Promise<Component> => import("./logo.vue"),
     nav: [
@@ -126,7 +130,7 @@ export default {
           content: `I think that good art can really make a game stand out, so i try to make most of the gameart myself (beginner).`
         },
         {
-          _item: "skill_3",
+          _item: "skill_4",
           icon: require("./static/gamepad.svg"),
           title: "Game design",
           content: `And of course coming up with game ideas/mechanics.`
@@ -147,7 +151,13 @@ export default {
       ],
       limit: 4, // Post limit
     },
-    section4: []
+    section4: [],
+    metatags: {
+      title: "Chronicles of a Game dev",
+      description:
+        "A blog about games and game making.",
+      image: require("./static/Logo_blue.svg")
+    }
   },
   about: [],
   work: {
@@ -157,7 +167,24 @@ export default {
     returnLinkText: "Back to All Projects",
     pretitle: "Projects",
     title: "Game Jam & Free Time Creations",
-    content: ""
+    content: "",
+    metatags: {
+      index: {
+        title: "Work - Chronicles of a Game dev",
+        description: "The latest work.",
+        image: require("./static/Logo_blue.svg")
+      }
+    },
+  },
+  blog: {
+    metatags: {
+      index: {
+        title: "Blog - Chronicles of a Game dev",
+        description:
+          "A blog about games and game making.",
+        image: require("./static/Logo_blue.svg")
+      }
+    }
   },
   contact: {
     title: "Have any questions?",
@@ -168,6 +195,12 @@ export default {
       title: "I live in Slovenia",
       content: "I originally want going to include this information here, but since i couldnt find a nice way to remove this map here you go. And yes it does look like a chicken.",
       map: '<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Slovenia&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>'
+    },
+    metatags: {
+      title: "Contact - Chronicles of a Game dev",
+      description:
+        "A minimal, personal or portfolio theme. Ideal for entrepreneurs or individuals of multiple creative professions.",
+      image: require("./static/Logo_blue.svg")
     }
   },
   contactForm: {
