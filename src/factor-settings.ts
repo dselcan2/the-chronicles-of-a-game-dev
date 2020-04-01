@@ -91,6 +91,7 @@ export default {
   },
   home: {
     intro: {
+      component: (): Promise<Component> => import("./intro.vue"),
       pretitle: "Dselcan's",
       title: "The Chronicles of a Game Dev",
       content: "A blog about games and game making.",
