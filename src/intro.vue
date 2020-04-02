@@ -85,11 +85,11 @@ export default Vue.extend({
     .container-center {
         display: flex;
         justify-content: space-between;
-        @media (max-width: 670px) {
+        @media (max-width: 595px) {
           .right{
             font-size: 1em;
             margin-top: 25px;
-            @media (max-width: 405px) {
+            @media (max-width: 361px) {
                 font-size: 2em;
                 margin-top: 50px;
             }
@@ -97,7 +97,7 @@ export default Vue.extend({
           .left{
             font-size: 1em;
             margin-top: 25px;
-            @media (max-width: 405px) {
+            @media (max-width: 361px) {
                 font-size: 2em;
                 margin-top: 50px;
             }
