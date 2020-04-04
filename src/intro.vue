@@ -124,7 +124,7 @@ export default Vue.extend({
     }
     .content {
       text-align: center;
-      max-width: 900px;
+      max-width: 900px !important;
       font-size: 1.4em;
       line-height: 1.6em;
     }
