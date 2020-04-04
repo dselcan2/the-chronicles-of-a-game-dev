@@ -23,13 +23,13 @@
     }
   },
   "dependencies": {
-    "@factor/core": "^1.4.11",
+    "@factor/core": "^1.5.16",
     "@factor/plugin-contact-form": "^1.0.0",
     "@factor/plugin-email-list": "^1.5.12",
     "@factor/plugin-notify": "^1.0.0",
     "@factor/plugin-seo": "^1.0.0",
     "@factor/plugin-sitemap": "^1.0.0",
-    "@factor/plugin-storage-s3": "^1.0.0",
-    "@factor/theme-alpha": "^1.4.11"
+    "@factor/plugin-storage-s3": "^1.5.12",
+    "@factor/theme-alpha": "^1.5.16"
   }
 }
