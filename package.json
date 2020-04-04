@@ -30,6 +30,6 @@
     "@factor/plugin-seo": "^1.0.0",
     "@factor/plugin-sitemap": "^1.0.0",
     "@factor/plugin-storage-s3": "^1.5.12",
-    "@factor/theme-alpha": "^1.5.16"
+    "@factor/theme-alpha": "^1.4.11"
   }
 }
